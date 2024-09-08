@@ -10,7 +10,7 @@ function App() {
     <>
     <Router basename='/Durgaprasad-Portfolio'>
       <Routes>
-        <Route path= 'https://durgaprasad09102003.github.io/Durgaprasad-Portfolio' element={<Navigate to='/home' />} />
+        <Route path= '/Durgaprasad-Portfolio' element={<Navigate to='/home' />} />
         <Route path= '/home' element={<Home />} />
       </Routes>
   </Router>
