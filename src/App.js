@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Navigate, Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Router, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import './components/Component.css';
 import assets from './assets/assets';
@@ -8,10 +8,12 @@ import assets from './assets/assets';
 function App() {
   return (
     <>
+    <Router basename='/Durgaprasad-Portfolio'>
       <Routes>
         <Route path= 'https://durgaprasad09102003.github.io/Durgaprasad-Portfolio' element={<Navigate to='/home' />} />
         <Route path= '/home' element={<Home />} />
       </Routes>
+  </Router>
 
       
     </>
