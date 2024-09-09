@@ -14,7 +14,12 @@ import gmritlogo from './GmritLogo.jpg';
 import Nsiclogo from './NSICLogo.jpeg';
 import BovLogo from './BOVLogo.jpg';
 import ShopNext from './ShopNext.png';
-import Project2 from './Project2.png';
+import TemperatureConverter from './TemperatureConverter.png';
+import Currencyconverter from './Currencyconverter.png';
+import MyFirstPortfolio from './MyFirstPortfolio.png';
+import miniPortfolio from './miniPortfolio.png';
+import Portfolio from './DURGAPRASAD PILLI.pdf';
+import WeatherAPIApp from './WeatherAPI-App.png'
 
 
 
@@ -35,8 +40,12 @@ const assets = {
     Nsiclogo,
     BovLogo,
     ShopNext,
-    Project2,
- 
+    TemperatureConverter,
+    Currencyconverter,
+    MyFirstPortfolio,
+    miniPortfolio,
+    Portfolio,
+    WeatherAPIApp,
 }
 
 

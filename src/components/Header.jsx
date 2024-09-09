@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import assets from '../assets/assets';
+import { NavLink } from 'react-router-dom';
 
 export default function Header() {
 
@@ -14,15 +15,15 @@ export default function Header() {
     <div className="Header">
         <nav className={navVisible ? "slider" : "navbar"}>
             <ul className={navVisible ?  ' nav-list nav-visible': 'nav-list' }>  
-                <li className="nav-item active">Home</li>
+                <li className="nav-item"><NavLink to="/home" activeClassName="active">Home</NavLink></li>
                 <li className="nav-item"><a href="#Education" > Education </a></li>
                 <li className="nav-item"><a href="#Aboutmelink" id="link_transition">About us</a></li>
                 <li className="nav-item brand " ><b>DURGA PRASAD</b></li>
-                <li className="nav-item">Projects</li>
-                <li className="nav-item"><a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                <li className="nav-item"><NavLink to="/projects" activeClassName="active">Projects</NavLink></li>
+                <li className="nav-item"><a href={assets.Portfolio} target="_blank" rel="noopener noreferrer">
                     Resume
                     </a></li>
-                <li className="nav-item">Media</li>
+                <li className="nav-item"><NavLink to="/media" activeClassName="active">Media</NavLink></li>
             </ul>
 
             

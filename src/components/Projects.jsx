@@ -18,17 +18,14 @@ function Projects() {
           demoLink: 'https://durgaprasad09102003.github.io/HTML-mini-projects/ShopNext/html/main.html',
         },
         {
-            imageSrc: assets.Project2,
-            description: `This was my first project during my BTech.
-                          I'm excited to share ShopNext, an e-commerce homepage
-                          design that provides a modern, user-friendly experience. Built with HTML and CSS, this project showcases my front-end development skills,
-                          emphasizing clean design and enhanced user engagement.
-                          Working on this project allowed me to refine my approach to
-                          layout structuring, and color schemes, resulting in a visually appealing
-                          interface. I'm eager to expand it further with additional pages.`,
-            skills: 'HTML · Cascading Style Sheets (CSS)',
-            codeLink: 'https://github.com/Durgaprasad09102003/HTML-mini-projects/tree/main/ShopNext',
-            demoLink: 'https://durgaprasad09102003.github.io/HTML-mini-projects/ShopNext/html/main.html',
+            imageSrc: assets.TemperatureConverter,
+            description: `🌟Temperature Converter Using React JS🌟
+                        I'm excited to share my project: a Temperature Converter built using React.js! 🌡️ 
+                        This project allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin seamlessly. 
+                        I'm particularly proud of this one because I love the design and how it turned out! 💙`,
+            skills: 'React JS · Cascading Style Sheets (CSS)',
+            codeLink: 'https://github.com/Durgaprasad09102003/Temperature-Converter-Reactjs',
+            demoLink: 'https://durgaprasad09102003.github.io/Temperature-Converter-Reactjs/',
           },
     ];
 

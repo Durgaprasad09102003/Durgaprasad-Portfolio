@@ -9,9 +9,11 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 10px;
+    padding-top: 20px;
     width: 100%;
+    min-width: 430px;
+    z-index: 100;
+    background-color: #121212;
 }
 
 .navbar {
@@ -37,7 +39,7 @@ html {
     
   }
   
-  .nav-item {
+  .nav-item, .active {
     margin: 0 15px;
     color: #ffffff;
     font-size: 18px;
@@ -50,7 +52,7 @@ html {
 
  
   
-  .nav-item.active {
+  .nav-item .active {
     background-color: #00ff88; 
     color: #000000; 
   }
@@ -59,7 +61,7 @@ html {
     color: #00ff88; 
   }
   
-  .nav-item.active:hover {
+  .nav-item .active:hover {
     color: #000000; 
   }
 

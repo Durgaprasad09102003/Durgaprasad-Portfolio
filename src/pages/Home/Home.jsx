@@ -13,7 +13,6 @@ import Footer from '../../components/Footer';
 const Home = () => {
   return (
     <div className='Home'>
-      <Header />
 
       <div className='maincontent'>
         <div className='imagedisplay'>
