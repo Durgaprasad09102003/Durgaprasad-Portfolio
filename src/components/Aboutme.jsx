@@ -5,7 +5,7 @@ import assets from '../assets/assets';
 function Aboutme() {
   return (
     <div className='About-me' id='Aboutmelink'>
-        <h1>About us</h1> <hr />
+        <h1>About me</h1> <hr />
       <div className='About-box'>
 
       <div className="about-details">

@@ -1,0 +1,55 @@
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    gap:0px;
+}
+
+.Visume{
+    width: 100vw;
+    min-width: 640px;
+    min-height: 450px;
+    height: calc(100vh - 85px);
+    background-color: #121212;
+    
+}
+
+.template{
+    width: fit-content;
+    height: fit-content;
+    background-color: green;
+    flex-direction: column;
+}
+
+.videobar{
+    width: 640px;
+    height: 360px;
+    background-color: rgb(0, 0, 0);
+    border-width: 8px 8px 0px 8px;
+    border-style: solid;
+    border-color: white;
+}
+
+.naming{
+    width: 640px;
+    height: 85px;
+    padding: 0px 8px;
+    background-color: white;
+    position: relative;
+}
+
+.naming hr{
+    width: 100%;
+    border:none;
+    height:2px;
+    background-color: grey;
+    position: absolute;
+    top:8px;
+}
+
+.naming h2{
+    color: black;
+}
