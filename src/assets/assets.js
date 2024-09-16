@@ -19,7 +19,8 @@ import Currencyconverter from './Currencyconverter.png';
 import MyFirstPortfolio from './MyFirstPortfolio.png';
 import miniPortfolio from './miniPortfolio.png';
 import Portfolio from './DURGAPRASAD PILLI.pdf';
-import WeatherAPIApp from './WeatherAPI-App.png'
+import WeatherAPIApp from './WeatherAPI-App.png';
+import ToDoList from './To-Do-List.png';
 
 
 
@@ -46,6 +47,7 @@ const assets = {
     miniPortfolio,
     Portfolio,
     WeatherAPIApp,
+    ToDoList,
 }
 
 

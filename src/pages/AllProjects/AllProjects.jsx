@@ -77,6 +77,18 @@ function AllProjects() {
             codeLink: 'https://github.com/Durgaprasad09102003/WEATHER-API-APP',
             demoLink: 'https://durgaprasad09102003.github.io/WEATHER-API-APP/',
           },
+          {
+            imageSrc: assets.ToDoList,
+            description: `"To-Do List Application with React.js 📋"
+
+                          "I'm thrilled to share my To-Do List application built with React.js! 
+                          This project helped me sharpen my front-end development skills, 
+                          particularly in using React for dynamic UI updates and managing state.`,
+
+            skills: 'React JS · Cascading Style Sheets (CSS)',
+            codeLink: 'https://github.com/Durgaprasad09102003/TO-DO-LIST',
+            demoLink: 'https://durgaprasad09102003.github.io/TO-DO-LIST/',
+          },
     ];
   return (
     <div className='Alltech Projects '>

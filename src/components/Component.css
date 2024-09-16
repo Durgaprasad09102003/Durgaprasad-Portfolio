@@ -254,8 +254,9 @@ html {
     margin: 0;
   }
 
-  .media{
+  .media, .media a{
     gap: 30px;
+    padding: 10px;
   }
 
   
