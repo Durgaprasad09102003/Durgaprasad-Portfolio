@@ -21,6 +21,7 @@ import miniPortfolio from './miniPortfolio.png';
 import Portfolio from './DURGAPRASAD PILLI.pdf';
 import WeatherAPIApp from './WeatherAPI-App.png';
 import ToDoList from './To-Do-List.png';
+import Spotifyhomepage from './Spotifyhomepage.png'
 
 
 
@@ -48,6 +49,7 @@ const assets = {
     Portfolio,
     WeatherAPIApp,
     ToDoList,
+    Spotifyhomepage,
 }
 
 

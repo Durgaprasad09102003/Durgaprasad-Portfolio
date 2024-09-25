@@ -89,6 +89,20 @@ function AllProjects() {
             codeLink: 'https://github.com/Durgaprasad09102003/TO-DO-LIST',
             demoLink: 'https://durgaprasad09102003.github.io/TO-DO-LIST/',
           },
+
+          {
+            imageSrc: assets.Spotifyhomepage,
+            description: `🎧 Spotify Homepage Clone with Basic Functionalities | React Project 🎶
+
+                          I’ve developed a Spotify homepage clone from scratch using React, 
+                          featuring 6 songs with essential music controls like ▶️ play, ⏸️ pause, 🔊 volume adjustment, and ⏹️ stop. 
+                          This project demonstrates my front-end skills, utilizing React to build an interactive UI. 
+                          🚀 In the future, I plan to add more features and expand this into a full-stack web application.`,
+
+            skills: 'React JS · Cascading Style Sheets (CSS)',
+            codeLink: 'https://github.com/Durgaprasad09102003/Spotify-homepage',
+            demoLink: 'https://durgaprasad09102003.github.io/Spotify-homepage/',
+          },
     ];
   return (
     <div className='Alltech Projects '>
