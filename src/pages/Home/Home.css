@@ -1,0 +1,89 @@
+.Home{
+    Background-color: #121212;
+    width:100vw;
+    min-width: 360px;
+    height: max-content;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.maincontent{
+    margin-top: 10px;
+    width: 100vw;
+    height:90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    padding: 15px;
+  }
+
+  @media screen and (max-width: 768px){
+    .maincontent{
+        flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 420px){
+    .details p{
+      padding: 5px 25px;
+    }
+  }
+
+  .imagedisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imagedisplay img {
+    border-radius: 50%;
+    width: 340px;
+    box-shadow: 0px 0px 50px 1px #00ff88;
+  }
+  
+
+  .details{
+    width:420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+
+  .details p{
+    color:#fff;
+  }
+
+
+  .details h1{
+    color: #00ff88;
+    overflow: hidden; 
+    border-right: .15em solid whitesmoke;
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: whitesmoke; }
+  }

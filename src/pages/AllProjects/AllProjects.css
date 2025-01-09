@@ -1,0 +1,139 @@
+.Alltech{
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: -1;
+    border-radius: 0;
+}
+
+
+.Projectrow{
+    width: 80vw;
+    min-width: 480px;
+    height: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  
+  .ProjectCard{
+    width: 470px;
+    min-width: 470px;
+    height: 365px;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+  }
+  
+  .ProjectDisplay{
+    width: 100%;
+    height: 270px;
+    background-color: #121212;
+    position: relative;
+  }
+  
+  .ProjectDisplay img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .projectLinks {
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    background-color: #121212;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  
+  .projectLinks a button {
+    width: 150px;
+    height: 40px;
+    background-color: #00ff88;
+    color: #121212; /* Dark text for contrast */
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 255, 136, 0.4), 0px 0px 12px rgba(0, 255, 136, 0.5);
+  }
+  
+  .projectLinks a button:hover {
+    background-color: #8e2de2;
+    color: #ffffff;
+    border: 2px solid #00ff88;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+  }
+  
+  
+  
+  .projectHoverFiled {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    opacity: 0.65;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: visibility 0s, opacity 0.5s ease;
+  }
+  
+  .hoverPara {
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    visibility: hidden;
+  }
+  
+  .hoverPara span {
+    color: rgb(255, 255, 255);
+    background-color: red;
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  
+  
+
+  @media screen and (max-width: 480px){
+
+    .Projectrow{
+        width: 100vw;
+        min-width: 360px;
+    }
+
+
+    .ProjectCard{
+        width: 100vw;
+        min-width: 360px;
+        padding: 5px;
+        margin: 20px 0;
+    }
+  }
