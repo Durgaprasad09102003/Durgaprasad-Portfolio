@@ -11,14 +11,13 @@ function App() {
   return (
     <>
     <Header>
-      <Link to="/home">Home</Link>
       <Link to="/projects">Projects</Link>
       <Link to="/media">Media</Link>
     </Header>
 
 
       <Routes>
-        <Route path="*" element={<Navigate to={"/home"} />} />
+        <Route path="/*" element={<Navigate to={"/home"} />} />
         <Route path="/home" element={<Home />} />
         <Route path="/projects" element={<AllProjects />} />
         <Route path="/media" element={<AllMedia />} />
