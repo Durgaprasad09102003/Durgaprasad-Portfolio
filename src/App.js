@@ -18,7 +18,6 @@ function App() {
 
       <Routes>
         <Route path="/*" element={<Navigate to={"/home"} />} />
-        <Route path="https://durgaprasad09102003.github.io/Durgaprasad-Portfolio/home" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/projects" element={<AllProjects />} />
         <Route path="/media" element={<AllMedia />} />
