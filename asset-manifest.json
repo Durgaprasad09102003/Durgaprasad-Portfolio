@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Durgaprasad-Portfolio/static/css/main.6f24b8a3.css",
-    "main.js": "/Durgaprasad-Portfolio/static/js/main.86e56664.js",
+    "main.css": "/Durgaprasad-Portfolio/static/css/main.4f99326b.css",
+    "main.js": "/Durgaprasad-Portfolio/static/js/main.d9c79bbf.js",
     "static/js/453.69f3745b.chunk.js": "/Durgaprasad-Portfolio/static/js/453.69f3745b.chunk.js",
-    "static/media/movieSystem.png": "/Durgaprasad-Portfolio/static/media/movieSystem.9d676fab5354b15b1fdb.png",
+    "static/media/movieSystem.png": "/Durgaprasad-Portfolio/static/media/movieSystem.1a08dac1dad080c65a36.png",
     "static/media/TemperatureConverter.png": "/Durgaprasad-Portfolio/static/media/TemperatureConverter.8667b1ffa3ba614c09de.png",
     "static/media/miniPortfolio.png": "/Durgaprasad-Portfolio/static/media/miniPortfolio.9b967c4802bb3f820470.png",
     "static/media/ShopNext.png": "/Durgaprasad-Portfolio/static/media/ShopNext.7fcb2f88df37bcf073d8.png",
     "static/media/MyFirstPortfolio.png": "/Durgaprasad-Portfolio/static/media/MyFirstPortfolio.1dab86602b3cca0c0d92.png",
     "static/media/WeatherAPI-App.png": "/Durgaprasad-Portfolio/static/media/WeatherAPI-App.dddc7e730ca1b67d0bdc.png",
     "static/media/Spotifyhomepage.png": "/Durgaprasad-Portfolio/static/media/Spotifyhomepage.207f7d93ab1872fcc61d.png",
-    "static/media/DURGAPRASAD PILLI.pdf": "/Durgaprasad-Portfolio/static/media/DURGAPRASAD PILLI.6f3c74d2dffaecfe91be.pdf",
+    "static/media/DURGAPRASAD PILLI.pdf": "/Durgaprasad-Portfolio/static/media/DURGAPRASAD PILLI.6ec2477e956abd15e784.pdf",
     "static/media/Currencyconverter.png": "/Durgaprasad-Portfolio/static/media/Currencyconverter.890a1bd1bd3b1f9293f4.png",
     "static/media/about-pic.jpg": "/Durgaprasad-Portfolio/static/media/about-pic.eb8f61365ba62bd5df67.jpg",
     "static/media/durga.jpg": "/Durgaprasad-Portfolio/static/media/durga.1a6fe248b3bb5252ac11.jpg",
+    "static/media/chatApplication.png": "/Durgaprasad-Portfolio/static/media/chatApplication.8f66763cc6ee319616f4.png",
     "static/media/GmritLogo.jpg": "/Durgaprasad-Portfolio/static/media/GmritLogo.8159698e6f9dd6ea16c9.jpg",
     "static/media/mail2.png": "/Durgaprasad-Portfolio/static/media/mail2.b2222c081635ef0a229d.png",
     "static/media/ChaitanyaLogo.jpg": "/Durgaprasad-Portfolio/static/media/ChaitanyaLogo.662fd2b3988f0f5fb158.jpg",
@@ -26,12 +27,12 @@
     "static/media/up-arrow-icon.png": "/Durgaprasad-Portfolio/static/media/up-arrow-icon.42bdd6ddb835b92bfcc0.png",
     "static/media/down-arrow-icon.png": "/Durgaprasad-Portfolio/static/media/down-arrow-icon.d2ebb4ac58137c816c06.png",
     "index.html": "/Durgaprasad-Portfolio/index.html",
-    "main.6f24b8a3.css.map": "/Durgaprasad-Portfolio/static/css/main.6f24b8a3.css.map",
-    "main.86e56664.js.map": "/Durgaprasad-Portfolio/static/js/main.86e56664.js.map",
+    "main.4f99326b.css.map": "/Durgaprasad-Portfolio/static/css/main.4f99326b.css.map",
+    "main.d9c79bbf.js.map": "/Durgaprasad-Portfolio/static/js/main.d9c79bbf.js.map",
     "453.69f3745b.chunk.js.map": "/Durgaprasad-Portfolio/static/js/453.69f3745b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f24b8a3.css",
-    "static/js/main.86e56664.js"
+    "static/css/main.4f99326b.css",
+    "static/js/main.d9c79bbf.js"
   ]
 }
