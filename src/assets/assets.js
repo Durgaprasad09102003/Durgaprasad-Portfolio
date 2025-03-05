@@ -23,6 +23,7 @@ import WeatherAPIApp from './WeatherAPI-App.png';
 import ToDoList from './To-Do-List.png';
 import Spotifyhomepage from './Spotifyhomepage.png';
 import movieSystem from './movieSystem.png';
+import chatApplication from './chatApplication.png';
 
 
 
@@ -52,6 +53,7 @@ const assets = {
     ToDoList,
     Spotifyhomepage,
     movieSystem,
+    chatApplication,
 }
 
 

@@ -18,15 +18,18 @@ function Projects() {
             demoLink: 'https://digitalpulsemovies.infinityfreeapp.com/movie-system/php/Home.php',
         },
         {
-            imageSrc: assets.TemperatureConverter,
-            description: `🌟Temperature Converter Using React JS🌟
-                        I'm excited to share my project: a Temperature Converter built using React.js! 🌡️ 
-                        This project allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin seamlessly. 
-                        I'm particularly proud of this one because I love the design and how it turned out! 💙`,
-            skills: 'React JS · Cascading Style Sheets (CSS)',
-            codeLink: 'https://github.com/Durgaprasad09102003/Temperature-Converter-Reactjs',
-            demoLink: 'https://durgaprasad09102003.github.io/Temperature-Converter-Reactjs/',
-          },
+            imageSrc: assets.chatApplication,
+            description: `I'm excited to share my real-time Chat Application built using the MERN stack! 💬 
+            This project enables seamless messaging with real-time updates, user authentication, and an intuitive UI. 
+            It was an incredible experience working with WebSockets and React to enhance the chat experience. 
+            I plan to improve it further by adding features like group chats, media sharing, and message reactions 
+            for a more engaging conversation experience. 
+            Your feedback and suggestions are always welcome! 🚀`,
+            skills: 'MongoDB · Express.js · React · Node.js · WebSockets',
+            codeLink: 'https://github.com/Durgaprasad09102003/FSI-CHATAPP',
+            demoLink: 'https://github.com/Durgaprasad09102003/FSI-CHATAPP',
+        }
+        
     ];
 
   return (

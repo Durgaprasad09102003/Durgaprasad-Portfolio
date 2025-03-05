@@ -17,7 +17,18 @@ function AllProjects() {
           codeLink: 'https://github.com/Durgaprasad09102003/DigitalPulse-OTT-MovieSystem',
           demoLink: 'https://digitalpulsemovies.infinityfreeapp.com/movie-system/php/Home.php',
         },
-
+        {
+          imageSrc: assets.chatApplication,
+          description: `I'm excited to share my real-time Chat Application built using the MERN stack! 💬 
+          This project enables seamless messaging with real-time updates, user authentication, and an intuitive UI. 
+          It was an incredible experience working with WebSockets and React to enhance the chat experience. 
+          I plan to improve it further by adding features like group chats, media sharing, and message reactions 
+          for a more engaging conversation experience. 
+          Your feedback and suggestions are always welcome! 🚀`,
+          skills: 'MongoDB · Express.js · React · Node.js · WebSockets',
+          codeLink: 'https://github.com/Durgaprasad09102003/FSI-CHATAPP',
+          demoLink: 'https://github.com/Durgaprasad09102003/FSI-CHATAPP',
+      },
         {
           imageSrc: assets.ShopNext,
           description: `This was my first project during my BTech.

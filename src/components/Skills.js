@@ -17,18 +17,19 @@ const skills = [
     { name: 'Premiere Pro' }
 ];
 
-
 function Skills() {
   return (
     <div className='skills'>
         <h1>Skills</h1> <hr />
-        <div>
-        {skills.map((skill, index) => (
-            <button key={index}>{skill.name}</button>
-        ))}
+        <div className="skills-grid">
+            {skills.map((skill, index) => (
+                <div key={index} className="skill-item">
+                    <button>{skill.name}</button>
+                </div>
+            ))}
         </div>
     </div>
-  )
+  );
 }
 
-export default Skills
+export default Skills;
